@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         frutas.add("Durazno")
         frutas.add("Plátano")
         frutas.add("Sandía")
-        frutas.add("Fresa")
+
 
         val lista = findViewById<ListView>(R.id.lista)
         val adaptador = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, frutas)
